@@ -1,0 +1,8 @@
+require "smysloff.options"
+require "smysloff.keymaps"
+require "smysloff.plugins"
+require "smysloff.colorscheme"
+require "smysloff.cmp"
+require "smysloff.lsp"
+require "smysloff.telescope"
+require "smysloff.treesitter"
