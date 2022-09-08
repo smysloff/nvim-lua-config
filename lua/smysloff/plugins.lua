@@ -59,9 +59,9 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-buffer" --Buffer completions
   use "hrsh7th/cmp-path" -- Path completions
   use "hrsh7th/cmp-cmdline" -- CMDline completions
-  use "saadparwaiz1/cmp_luasnip" -- Snippet completions
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
+  use "saadparwaiz1/cmp_luasnip" -- Snippet completions
 
   -- snippets
   use "L3MON4D3/LuaSnip" -- Snippet engine
@@ -69,9 +69,10 @@ return packer.startup(function(use)
 
   -- LSP
   use {
-    "williamboman/nvim-lsp-installer", -- Enable LSP
     "neovim/nvim-lspconfig", -- Simple to use language server installer
+    "williamboman/nvim-lsp-installer", -- Enable LSP
     "tamago324/nlsp-settings.nvim", -- Language server settings defined in json for
+    "jose-elias-alvarez/null-ls.nvim" -- For formatters and linters
   }
 
   -- Telescope
