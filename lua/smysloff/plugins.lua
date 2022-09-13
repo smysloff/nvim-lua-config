@@ -69,9 +69,10 @@ return packer.startup(function(use)
 
   -- LSP
   use {
-    "williamboman/nvim-lsp-installer", -- Enable LSP
     "neovim/nvim-lspconfig", -- Simple to use language server installer
+    "williamboman/nvim-lsp-installer", -- Enable LSP
     "tamago324/nlsp-settings.nvim", -- Language server settings defined in json for
+    "jose-elias-alvarez/null-ls.nvim", -- for formatters and linters
   }
 
   -- Telescope
